@@ -25,8 +25,8 @@ Alternatively, you can build an image from [Dockerfile](https://github.com/pucke
         -p 8083:8083 \
         -p 8086:8086 \
         -p 8090:8090 \
-        -p 25826:25826/udp \
-        puckel/docker-influxdb
+        -p 25827:25827/udp \
+        puckel/docker-influxdb:0.9.0
 ```
 
 After few seconds, open `http://localhost:8083/` (credentials : root/root) to see the result.
