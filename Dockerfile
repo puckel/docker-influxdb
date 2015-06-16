@@ -13,7 +13,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
 # Work around initramfs-tools running on kernel 'upgrade': <http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=594189>
 ENV INITRD No
-ENV INFLUXDB_VERSION 0.9.0-rc18
+ENV INFLUXDB_VERSION 0.9.0
 ENV PRE_CREATE_DB collectd
 
 RUN apt-get update -yqq \
